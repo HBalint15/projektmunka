@@ -11,6 +11,13 @@ h1 {
     text-align: justify;
     color: white;
     font-size: 42pt;
+    border-top: 5px solid blue;
+    border-bottom: 10px solid rgb(0, 0, 156);
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
 
 }
 
@@ -21,7 +28,10 @@ h2 {
     color: black;
     background-color: whitesmoke;
     font-size: 35px;
-
+    border: 10px, double, red;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
 }
 
 img {
@@ -29,6 +39,8 @@ img {
     border: 2cm;
     padding: 5pt;
     margin: 5pt;
+    padding: 5px;
+    border: 3px, solid, black;
 
 }
 
@@ -36,7 +48,9 @@ p {
     font-size: 20px;
     color: white;
     font-style: italic;
-
+    margin: 10px;
+    padding: 50px;
+    border-top: 10px dotted red ;
 }
 
 ul {
@@ -49,9 +63,11 @@ ul {
 a {
     color: cyan;
     text-decoration: none;
-    padding: 10pt
+    padding: 10px
 }
 
 a:hover {
     color: red;
+    border: 2px, solid red;
+    
 }
